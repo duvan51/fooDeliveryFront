@@ -1,0 +1,222 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Juan Pérez",
+        "email": "juanperez@example.com",
+        "photo": "https://example.com/photos/juan.jpg",
+        "username": "juanp",
+        "whatsapp": "+1234567890",
+        "direccion": "123 Main St, Ciudad",
+        "restaurantesID": [1, 2]
+      },
+      {
+        "id": 2,
+        "name": "Maria García",
+        "email": "mariagarcia@example.com",
+        "photo": "https://example.com/photos/maria.jpg",
+        "username": "mariag",
+        "whatsapp": "+0987654321",
+        "direccion": "456 Oak St, Ciudad",
+        "restaurantesID": [3]
+      }
+    ],
+    "restaurants": [
+      {
+        "id": 50,
+        "name": "Taco Fiesta",
+        "description": "Auténticos tacos mexicanos.",
+        "dateCreated": "2021-09-25",
+        "ubicacionAddres": "Paseo de la Reforma 789, Ciudad",
+        "carta": [
+          {
+            "productoID": 5,
+            "productoID": 6
+          }
+        ],
+        "images": [
+          "https://www.elespectador.com/resizer/v2/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg?auth=0720e4578a65d3e971d791e0cea4b290af24f0a65556155cade95637aef3c7a4&width=920&height=613&smart=true&quality=60",
+          "https://www.barcelonaculinaryhub.com/sites/bch.com/files/images/restaurante%20futuro.png"
+        ],
+        "logo": "https://example.com/logos/tacofiesta.png"
+      },
+      {
+        "id": 2,
+        "name": "Pizza Express",
+        "description": "Las mejores pizzas a la piedra.",
+        "dateCreated": "2022-11-10",
+        "ubicacionAddres": "Calle Central 456, Ciudad",
+        "carta": [
+          {
+            "productoID": 3,
+            "productoID": 4
+          }
+        ],
+        "images": [
+          "https://estaticos.elcolombiano.com/binrepository/846x566/0c1/780d565/none/11101/ETEQ/restaurantes-2_43489140_20231012005451.jpg",
+          "https://www.elespectador.com/resizer/v2/6W4NBCLZ75DEFBCEUZHYDCNDZI.jpg?auth=d0373f0b44d7e67cb3c5f7fec9f3fbfbafa86f218c72af522b2084364268d1f6&width=920&height=613&smart=true&quality=60"
+        ],
+        "logo": "https://static-cse.canva.com/blob/951768/1650logotiposqueteinspiraran.png"
+      },
+      {
+        "id": 3,
+        "name": "Taco Fiesta",
+        "description": "Auténticos tacos mexicanos.",
+        "dateCreated": "2021-09-25",
+        "ubicacionAddres": "Paseo de la Reforma 789, Ciudad",
+        "carta": [
+          {
+            "productoID": 5,
+            "productoID": 6
+          }
+        ],
+        "images": [
+          "https://www.elespectador.com/resizer/v2/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg?auth=0720e4578a65d3e971d791e0cea4b290af24f0a65556155cade95637aef3c7a4&width=920&height=613&smart=true&quality=60",
+          "https://www.barcelonaculinaryhub.com/sites/bch.com/files/images/restaurante%20futuro.png"
+        ],
+        "logo": "https://example.com/logos/tacofiesta.png"
+      },
+      {
+        "id": 4,
+        "name": "Taco Fiesta",
+        "description": "Auténticos tacos mexicanos.",
+        "dateCreated": "2021-09-25",
+        "ubicacionAddres": "Paseo de la Reforma 789, Ciudad",
+        "carta": [
+          {
+            "productoID": 5,
+            "productoID": 6
+          }
+        ],
+        "images": [
+          "https://www.elespectador.com/resizer/v2/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg?auth=0720e4578a65d3e971d791e0cea4b290af24f0a65556155cade95637aef3c7a4&width=920&height=613&smart=true&quality=60",
+          "https://www.barcelonaculinaryhub.com/sites/bch.com/files/images/restaurante%20futuro.png"
+        ],
+        "logo": "https://example.com/logos/tacofiesta.png"
+      },
+      {
+        "id": 5,
+        "name": "Taco Fiesta",
+        "description": "Auténticos tacos mexicanos.",
+        "dateCreated": "2021-09-25",
+        "ubicacionAddres": "Paseo de la Reforma 789, Ciudad",
+        "carta": [
+          {
+            "productoID": 5,
+            "productoID": 6
+          }
+        ],
+        "images": [
+          "https://www.elespectador.com/resizer/v2/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg?auth=0720e4578a65d3e971d791e0cea4b290af24f0a65556155cade95637aef3c7a4&width=920&height=613&smart=true&quality=60",
+          "https://www.barcelonaculinaryhub.com/sites/bch.com/files/images/restaurante%20futuro.png"
+        ],
+        "logo": "https://example.com/logos/tacofiesta.png"
+      },
+      {
+        "id": 6,
+        "name": "Taco Fiesta",
+        "description": "Auténticos tacos mexicanos.",
+        "dateCreated": "2021-09-25",
+        "ubicacionAddres": "Paseo de la Reforma 789, Ciudad",
+        "carta": [
+          {
+            "productoID": 5,
+            "productoID": 6
+          }
+        ],
+        "images": [
+          "https://www.elespectador.com/resizer/v2/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg?auth=0720e4578a65d3e971d791e0cea4b290af24f0a65556155cade95637aef3c7a4&width=920&height=613&smart=true&quality=60",
+          "https://www.barcelonaculinaryhub.com/sites/bch.com/files/images/restaurante%20futuro.png"
+        ],
+        "logo": "https://example.com/logos/tacofiesta.png"
+      }
+    ],
+    "productos": [
+      {
+        "id": 1,
+        "name": "Hamburguesa Clásica",
+        "description": "Hamburguesa con carne 100% de res, lechuga, tomate y cebolla.",
+        "categoryId": 1,
+        "price": 5.99,
+        "images": [
+          "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRRto3IlY56MlAIOAvXHvPEVxBDVzG1uz1zULEBYdJ-I4Aa-xOyPEVvv7fmIjLnxaOz"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Papas Fritas",
+        "description": "Crujientes papas fritas acompañadas de salsa ketchup.",
+        "categoryId": 2,
+        "price": 2.99,
+        "images": [
+          "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRFiWUbLK4cmvufUljGHhn1ifqaOkZZzebdCUE347QUG092UcSatzeChPwpBPY-RLQW"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Pizza Margarita",
+        "description": "Pizza con salsa de tomate, mozzarella fresca y albahaca.",
+        "categoryId": 3,
+        "price": 8.99,
+        "images": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh7-18uhQBshQdfFRgRRciaLghKoajjI9A3g&s"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Pizza Pepperoni",
+        "description": "Pizza con pepperoni y extra queso mozzarella.",
+        "categoryId": 3,
+        "price": 9.99,
+        "images": [
+          "https://www.sortirambnens.com/wp-content/uploads/2019/02/pizza-de-peperoni.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Taco de Carnitas",
+        "description": "Taco con carne de cerdo asada, cilantro y cebolla.",
+        "categoryId": 4,
+        "price": 3.49,
+        "images": [
+          "https://www.inspiredtaste.net/wp-content/uploads/2022/11/Carnitas-1200-1200x800.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Taco al Pastor",
+        "description": "Taco con carne de cerdo marinada con piña y salsa verde.",
+        "categoryId": 4,
+        "price": 3.99,
+        "images": [
+          "https://www.goya.com/media/3193/carnitas.jpg?quality=80"
+        ]
+      }
+    ],
+    "categorias": [
+      {
+        "id": 1,
+        "name": "Hamburguesas",
+        "image": "https://espanol.kingsford.com/wp-content/uploads/2017/02/KFD_SpicyBBQBaconRanchBurger35382_WEB.jpg",
+        "description": "Todo tipo de hamburguesas."
+      },
+      {
+        "id": 2,
+        "name": "Acompañamientos",
+        "image": "https://images.mrcook.app/recipe-image/0191c4f5-2dd3-7beb-9f5a-db3cad9df102",
+        "description": "Acompañamientos como papas fritas, ensaladas, etc."
+      },
+      {
+        "id": 3,
+        "name": "Pizzas",
+        "image": "https://www.pequerecetas.com/wp-content/uploads/2012/12/recetas-de-pizzas-caseras.jpg",
+        "description": "Variedad de pizzas artesanales."
+      },
+      {
+        "id": 4,
+        "name": "Tacos",
+        "image": "https://cdn.nutritionstudies.org/wp-content/uploads/2023/03/chipotle-mushroom-tacos-1024x683.jpg",
+        "description": "Auténticos tacos mexicanos."
+      }
+    ]
+  }

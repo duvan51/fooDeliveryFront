@@ -1,0 +1,9 @@
+.slick-track > div{
+
+  width: 100% !important;
+  height: 200px;
+}
+.slick-track > div >div{
+  width: 100% !important;
+  height: 100%;
+}
