@@ -6,7 +6,9 @@ import Login from "../../pages/login/login";
 import RegisterUser from "../../pages/register/registerUser";
 import { AuthContext } from "../../context/AuthContext";
 
-import ModalCart from "../../pages/modalCart/modalCart";
+
+import ModalCart from "../../pages/modalCart/modalcart";
+
 
 const Header = () => {
 

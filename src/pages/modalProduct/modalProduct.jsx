@@ -7,7 +7,7 @@ const Modal = ({data}) => {
   const [isOpen, setIsOpen] = useState(false);
  
 
-  const [totalPagar, setTotalPagar] = useState(data.price)
+  const [totalPagar, setTotalPagar] = useState(data?.price)
   const [increment, setIncrement] = useState(1)
 
   const openModal = () => setIsOpen(true);
