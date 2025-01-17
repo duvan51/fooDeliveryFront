@@ -6,9 +6,9 @@ import Login from "../../pages/login/login";
 import RegisterUser from "../../pages/register/registerUser";
 import { AuthContext } from "../../context/AuthContext";
 
-import ModalCart from "../../pages/modalCart/modalCart";
+import ModalCart from "../../pages/modalCart/modalCart.jsx";
 
-const header = () => {
+const Header = () => {
   const [activeDiv, setActiveDiv] = useState(null);
   const userData = JSON.parse(localStorage.getItem("usuario"));
 
@@ -144,4 +144,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
